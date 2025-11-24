@@ -22,7 +22,7 @@ def test_train_bpe_speed():
     )
     end_time = time.time()
     assert end_time - start_time < 1.5
-
+    #TODO
 
 def test_train_bpe():
     input_path = FIXTURES_PATH / "corpus.en"

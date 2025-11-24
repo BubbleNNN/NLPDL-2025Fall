@@ -1,0 +1,7 @@
+checkpoints/
+*.npy
+data/
+tokenized_data/
+*.prof
+*.pkl
+*.txt

@@ -1,0 +1,112 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            j3v0l6e0t583tgrkya3dk10z1xafbkdc:
+                args:
+                    - --config
+                    - /share/project/zhaomingxuan/nlp/NLPDL-2025Fall/hw1_bpe_and_lm/basics/config.yaml
+                codePath: hw1_bpe_and_lm/basics/training.py
+                codePathLocal: training.py
+                cpu_count: 96
+                cpu_count_logical: 192
+                cudaVersion: "12.4"
+                disk:
+                    /:
+                        total: "15360860356608"
+                        used: "1003885715456"
+                email: 2300017798@stu.pku.edu.cn
+                executable: /share/project/zhaomingxuan/nlp/NLPDL-2025Fall/hw1_bpe_and_lm/.venv/bin/python3
+                git:
+                    commit: af2a9d0e6bf5c86b7bb6900027e546e7b258d379
+                    remote: https://github.com/BubbleNNN/NLPDL-2025Fall.git
+                gpu: NVIDIA H100 80GB HBM3
+                gpu_count: 4
+                gpu_nvidia:
+                    - architecture: Hopper
+                      cudaCores: 16896
+                      memoryTotal: "85520809984"
+                      name: NVIDIA H100 80GB HBM3
+                      uuid: GPU-83551767-bb9c-e0f8-dc35-741fb2cdc6d0
+                    - architecture: Hopper
+                      cudaCores: 16896
+                      memoryTotal: "85520809984"
+                      name: NVIDIA H100 80GB HBM3
+                      uuid: GPU-b3a07822-5882-71f9-f42d-18fbde369220
+                    - architecture: Hopper
+                      cudaCores: 16896
+                      memoryTotal: "85520809984"
+                      name: NVIDIA H100 80GB HBM3
+                      uuid: GPU-85bf0508-c97f-96f4-2eec-19089f60418b
+                    - architecture: Hopper
+                      cudaCores: 16896
+                      memoryTotal: "85520809984"
+                      name: NVIDIA H100 80GB HBM3
+                      uuid: GPU-52122df5-2767-d934-f0b0-fc57ddf62420
+                host: job-973bff2b-722c-4042-95ec-5214af53cc67-master-0
+                memory:
+                    total: "2164042121216"
+                os: Linux-5.15.0-105-generic-x86_64-with-glibc2.35
+                program: /share/project/zhaomingxuan/nlp/NLPDL-2025Fall/hw1_bpe_and_lm/basics/training.py
+                python: CPython 3.12.12
+                root: /share/project/zhaomingxuan/nlp/NLPDL-2025Fall/hw1_bpe_and_lm/basics
+                startedAt: "2025-10-30T02:54:36.678416Z"
+                writerId: j3v0l6e0t583tgrkya3dk10z1xafbkdc
+        m: []
+        python_version: 3.12.12
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 16
+                - 17
+            "4": 3.12.12
+            "5": 0.21.0
+            "12": 0.21.0
+            "13": linux-x86_64
+batch_size:
+    value: 512
+ckpt_interval:
+    value: 1000
+context_length:
+    value: 128
+cosine_iters:
+    value: 298000
+d_ff:
+    value: 1024
+d_model:
+    value: 256
+device:
+    value: cuda
+eval_interval:
+    value: 500
+log_interval:
+    value: 20
+lr:
+    value: 0.0006
+lr_min:
+    value: 6e-05
+max_iters:
+    value: 300000
+num_heads:
+    value: 8
+num_layers:
+    value: 4
+out_dir:
+    value: checkpoints_small_model_h100
+resume:
+    value: ""
+train_data:
+    value: /share/project/zhaomingxuan/nlp/NLPDL-2025Fall/hw1_bpe_and_lm/basics/tokenized_data/train_ids.npy
+use_wandb:
+    value: true
+val_data:
+    value: /share/project/zhaomingxuan/nlp/NLPDL-2025Fall/hw1_bpe_and_lm/basics/tokenized_data/dev_ids.npy
+vocab_size:
+    value: 10000
+warmup_iters:
+    value: 2000
+weight_decay:
+    value: 0.1

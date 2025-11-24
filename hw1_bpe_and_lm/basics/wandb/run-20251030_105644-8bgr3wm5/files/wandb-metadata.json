@@ -1,0 +1,65 @@
+{
+  "os":  "Linux-5.15.0-105-generic-x86_64-with-glibc2.35",
+  "python":  "CPython 3.12.12",
+  "startedAt":  "2025-10-30T02:56:44.766964Z",
+  "args":  [
+    "--config",
+    "/share/project/zhaomingxuan/nlp/NLPDL-2025Fall/hw1_bpe_and_lm/basics/config.yaml"
+  ],
+  "program":  "/share/project/zhaomingxuan/nlp/NLPDL-2025Fall/hw1_bpe_and_lm/basics/training.py",
+  "codePath":  "hw1_bpe_and_lm/basics/training.py",
+  "codePathLocal":  "training.py",
+  "git":  {
+    "remote":  "https://github.com/BubbleNNN/NLPDL-2025Fall.git",
+    "commit":  "af2a9d0e6bf5c86b7bb6900027e546e7b258d379"
+  },
+  "email":  "2300017798@stu.pku.edu.cn",
+  "root":  "/share/project/zhaomingxuan/nlp/NLPDL-2025Fall/hw1_bpe_and_lm/basics",
+  "host":  "job-973bff2b-722c-4042-95ec-5214af53cc67-master-0",
+  "executable":  "/share/project/zhaomingxuan/nlp/NLPDL-2025Fall/hw1_bpe_and_lm/.venv/bin/python3",
+  "cpu_count":  96,
+  "cpu_count_logical":  192,
+  "gpu":  "NVIDIA H100 80GB HBM3",
+  "gpu_count":  4,
+  "disk":  {
+    "/":  {
+      "total":  "15360860356608",
+      "used":  "1003884826624"
+    }
+  },
+  "memory":  {
+    "total":  "2164042121216"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA H100 80GB HBM3",
+      "memoryTotal":  "85520809984",
+      "cudaCores":  16896,
+      "architecture":  "Hopper",
+      "uuid":  "GPU-83551767-bb9c-e0f8-dc35-741fb2cdc6d0"
+    },
+    {
+      "name":  "NVIDIA H100 80GB HBM3",
+      "memoryTotal":  "85520809984",
+      "cudaCores":  16896,
+      "architecture":  "Hopper",
+      "uuid":  "GPU-b3a07822-5882-71f9-f42d-18fbde369220"
+    },
+    {
+      "name":  "NVIDIA H100 80GB HBM3",
+      "memoryTotal":  "85520809984",
+      "cudaCores":  16896,
+      "architecture":  "Hopper",
+      "uuid":  "GPU-85bf0508-c97f-96f4-2eec-19089f60418b"
+    },
+    {
+      "name":  "NVIDIA H100 80GB HBM3",
+      "memoryTotal":  "85520809984",
+      "cudaCores":  16896,
+      "architecture":  "Hopper",
+      "uuid":  "GPU-52122df5-2767-d934-f0b0-fc57ddf62420"
+    }
+  ],
+  "cudaVersion":  "12.4",
+  "writerId":  "1lb1i1hgrlaby7puklwcibd3ohuly3lr"
+}

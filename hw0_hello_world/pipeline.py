@@ -16,4 +16,5 @@ def hello_world(name: str) -> str:
     # TODO: Implement this function.
     # Your implementation should replace the line below.
     # Example: If name is "Alice", this function should return "Hello, Alice!".
-    raise NotImplementedError("The 'hello_world' function is not yet implemented.")
+    #raise NotImplementedError("The 'hello_world' function is not yet implemented.")
+    return f'Hello, {name}!'

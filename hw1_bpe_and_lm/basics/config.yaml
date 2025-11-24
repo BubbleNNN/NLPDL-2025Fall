@@ -1,0 +1,33 @@
+
+train_data: "/share/project/zhaomingxuan/nlp/NLPDL-2025Fall/hw1_bpe_and_lm/tokenized_data/train_ids_special.npy"
+val_data: "/share/project/zhaomingxuan/nlp/NLPDL-2025Fall/hw1_bpe_and_lm/tokenized_data/dev_ids_special.npy"
+vocab_size: 10000
+is_LSTM: False
+
+context_length: 128
+num_layers: 4
+d_model: 256
+num_heads: 8
+d_ff: 1024
+
+
+batch_size: 512  
+max_iters: 30000
+device: "cuda:1"
+
+
+lr: 0.0006
+lr_min: 0.00006
+weight_decay: 0.1
+warmup_iters: 2000
+cosine_iters: 298000 
+
+
+log_interval: 20
+eval_interval: 500
+ckpt_interval: 1000
+out_dir: "/share/project/zhaomingxuan/nlp/NLPDL-2025Fall/hw1_bpe_and_lm/basics/checkpoints_small_model_h100_special"
+
+
+resume: ""
+use_wandb: true
